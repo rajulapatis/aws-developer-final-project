@@ -12,7 +12,7 @@ import { createLogger } from '../../utils/logger';
 
 import { getUserId } from '../utils';
 
-import { createTodo } from '../../helpers/todos';
+import { createTodo } from '../../helpers/businessLayer/todos';
 
 const logger = createLogger('createTodo')
 

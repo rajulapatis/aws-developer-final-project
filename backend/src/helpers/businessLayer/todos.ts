@@ -1,20 +1,20 @@
-import { TodosAccess } from './todosAcess'
+import { TodosAccess } from '../dataLayer/todosAcess'
 
 import { AttachmentUtils } from './attachmentUtils';
 
-import { TodoItem } from '../models/TodoItem'
+import { TodoItem } from '../../models/TodoItem'
 
-import { CreateTodoRequest } from '../requests/CreateTodoRequest'
+import { CreateTodoRequest } from '../../requests/CreateTodoRequest'
 
-import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
+import { UpdateTodoRequest } from '../../requests/UpdateTodoRequest'
 
-import { createLogger } from '../utils/logger'
+import { createLogger } from '../../utils/logger'
 
 import * as uuid from 'uuid'
 
 //import * as createError from 'http-errors'
 
-import { TodoUpdate } from '../models/TodoUpdate'
+import { TodoUpdate } from '../../models/TodoUpdate'
 
 const logger = createLogger('todos')
 

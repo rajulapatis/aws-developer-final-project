@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult, APIGatewayProxyHandler } f
 
 import * as uuid from 'uuid'
 
-import { generateUploadUrl, updateAttachmentUrl } from '../../helpers/todos'
+import { generateUploadUrl, updateAttachmentUrl } from '../../helpers/businessLayer/todos'
 
 import { createLogger } from '../../utils/logger'
 

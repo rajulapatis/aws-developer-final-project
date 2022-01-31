@@ -7,9 +7,9 @@ import { DocumentClient } from 'aws-sdk/clients/dynamodb'
 import * as AWSXRay from 'aws-xray-sdk'
 
 
-import { TodoItem } from '../models/TodoItem'
-import { TodoUpdate } from '../models/TodoUpdate'
-import { createLogger } from '../utils/logger'
+import { TodoItem } from '../../models/TodoItem'
+import { TodoUpdate } from '../../models/TodoUpdate'
+import { createLogger } from '../../utils/logger'
 
 const logger = createLogger('todosAccess')
 

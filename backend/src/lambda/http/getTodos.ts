@@ -2,7 +2,7 @@ import 'source-map-support/register'
 
 import { APIGatewayProxyEvent, APIGatewayProxyResult, APIGatewayProxyHandler } from 'aws-lambda'
 
-import { getTodos } from '../../helpers/todos'
+import { getTodos } from '../../helpers/businessLayer/todos'
 
 import { createLogger } from '../../utils/logger'
 
